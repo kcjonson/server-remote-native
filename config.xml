@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="server.remote.native" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Remote</name>
-    <description>
-        A native home automation server remote
-    </description>
-    <author email="kcjonson@gmail.com" href="http://kevinjonson.com">
-        Kevin Jonson
-    </author>
+    <description>A native home automation server remote</description>
+    <author email="kcjonson@gmail.com" href="http://kevinjonson.com">Kevin Jonson</author>
     <content src="dashboard.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
