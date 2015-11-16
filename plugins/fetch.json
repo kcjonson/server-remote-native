@@ -1,10 +1,4 @@
 {
-    "org.apache.cordova.statusbar": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.statusbar"
-        }
-    },
     "cordova-plugin-splashscreen": {
         "source": {
             "type": "registry",
@@ -18,6 +12,14 @@
             "type": "git",
             "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git",
             "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar"
         },
         "is_top_level": true,
         "variables": {}
