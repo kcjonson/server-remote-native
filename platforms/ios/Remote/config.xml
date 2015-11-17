@@ -19,15 +19,19 @@
         <param name="onload" value="true" />
     </feature>
     <preference name="StatusBarOverlaysWebView" value="true" />
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Remote</name>
     <description>A native home automation server remote</description>
     <author email="kcjonson@gmail.com" href="http://kevinjonson.com">Kevin Jonson</author>
     <content src="dashboard.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="auto-hide-splash-screen" value="false" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#464343" />
     <preference name="StatusBarStyle" value="lightcontent" />

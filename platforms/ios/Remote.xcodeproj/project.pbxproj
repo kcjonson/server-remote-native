@@ -39,10 +39,11 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		D244D9C19B62431BAEE5758D /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F32E36AA7E5404490E837D4 /* CDVSplashScreen.m */; };
 		BAE87888AE2F49E9916513C7 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43231542861B4F84AE189D1B /* CDVLocation.m */; };
 		E4D22AF3E5C84872AB8C215A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C96676D088F468E89CAF0F0 /* CoreLocation.framework */; };
 		1FB1AFDE37814A9EBA1C469C /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F38A1971102849F2A3929327 /* CDVStatusBar.m */; };
+		66A2BD3EA46F4D7790BC405A /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DD24E85A6E40918B5D3239 /* CDVSplashScreen.m */; };
+		CD25E43C64D24FA8AF82831E /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A0291DFF7493AB8D40A70 /* CDVViewController+SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,13 +109,15 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Remote/config.xml"; sourceTree = "<group>"; };
-		3F32E36AA7E5404490E837D4 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		05447D7B12854A25A2BBBA17 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		43231542861B4F84AE189D1B /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		DAB04849C5EF45369A0411D3 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		1C96676D088F468E89CAF0F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		F38A1971102849F2A3929327 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		A62D98C6A8C8419EB44ACAD8 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		69DD24E85A6E40918B5D3239 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		BF7A0291DFF7493AB8D40A70 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C0CFBBD58378456C99B4C915 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BD45F937D0304681994CE793 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,12 +218,14 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				3F32E36AA7E5404490E837D4 /* CDVSplashScreen.m */,
-				05447D7B12854A25A2BBBA17 /* CDVSplashScreen.h */,
 				43231542861B4F84AE189D1B /* CDVLocation.m */,
 				DAB04849C5EF45369A0411D3 /* CDVLocation.h */,
 				F38A1971102849F2A3929327 /* CDVStatusBar.m */,
 				A62D98C6A8C8419EB44ACAD8 /* CDVStatusBar.h */,
+				69DD24E85A6E40918B5D3239 /* CDVSplashScreen.m */,
+				BF7A0291DFF7493AB8D40A70 /* CDVViewController+SplashScreen.m */,
+				C0CFBBD58378456C99B4C915 /* CDVSplashScreen.h */,
+				BD45F937D0304681994CE793 /* CDVViewController+SplashScreen.h */,
 			);
 			name = Plugins;
 			path = "Remote/Plugins";
@@ -405,9 +410,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				D244D9C19B62431BAEE5758D /* CDVSplashScreen.m in Sources */,
 				BAE87888AE2F49E9916513C7 /* CDVLocation.m in Sources */,
 				1FB1AFDE37814A9EBA1C469C /* CDVStatusBar.m in Sources */,
+				66A2BD3EA46F4D7790BC405A /* CDVSplashScreen.m in Sources */,
+				CD25E43C64D24FA8AF82831E /* CDVViewController+SplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
