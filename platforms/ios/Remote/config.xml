@@ -29,6 +29,7 @@
     <content src="dashboard.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
+    <hook src="hooks/install" type="before_build" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="FadeSplashScreen" value="false" />

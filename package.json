@@ -1,0 +1,22 @@
+{
+  "name": "server-remote-native",
+  "version": "1.0.0",
+  "description": "server-remote-native",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcjonson/server-remote-native.git"
+  },
+  "author": "Kevin Jonson (kcjonson@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcjonson/server-remote-native/issues"
+  },
+  "homepage": "https://github.com/kcjonson/server-remote-native#readme",
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0"
+  }
+}
