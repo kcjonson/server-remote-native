@@ -63,9 +63,6 @@
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "server.remote.native"
         },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "server.remote.native"
-        },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "server.remote.native"
         }

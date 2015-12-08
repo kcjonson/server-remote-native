@@ -4,8 +4,8 @@ var del = require('del');
 gulp.task('default', ['install'])
 
 gulp.task('install', function(){
-	return gulp.src('../server-remote-web/lib**/*')
-		.pipe(gulp.dest('www')
+	return gulp.src('../server-remote-web/lib/**/*')
+		.pipe(gulp.dest('www'));
 })
 
 gulp.task('clean', function(){

@@ -4,7 +4,7 @@
     <name>Remote</name>
     <description>A native home automation server remote</description>
     <author email="kcjonson@gmail.com" href="http://kevinjonson.com">Kevin Jonson</author>
-    <content src="dashboard.html" />
+    <content src="app.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
     <hook type="before_build" src="hooks/install" />
@@ -12,10 +12,6 @@
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="FadeSplashScreen" value="false"/>
-
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarBackgroundColor" value="#464343" />
-    <preference name="StatusBarStyle" value="lightcontent" />
 
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
